@@ -1,0 +1,7 @@
+option java_package = "com.savory.proto";
+option java_outer_classname = "Payload";
+option optimize_for = SPEED;
+
+message Order {
+  optional string oid = 1;
+}
